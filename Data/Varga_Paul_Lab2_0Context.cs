@@ -19,5 +19,7 @@ namespace Varga_Paul_Lab2_0.Data
         public DbSet<Varga_Paul_Lab2_0.Models.Publisher>? Publisher { get; set; }
 
         public DbSet<Varga_Paul_Lab2_0.Models.Category>? Category { get; set; }
+
+        public DbSet<Varga_Paul_Lab2_0.Models.Author>? Author { get; set; }
     }
 }
